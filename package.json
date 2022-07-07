@@ -1,0 +1,34 @@
+{
+  "name": "react-simple-graphic",
+  "version": "0.0.1",
+  "description": "Simple beautiful graphic react component",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --loader:.js=jsx --minify --sourcemap --outfile=dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goDlin86/react-simple-graphic.git"
+  },
+  "keywords": [
+    "react",
+    "graphic",
+    "chart"
+  ],
+  "author": "goDlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goDlin86/react-simple-graphic/issues"
+  },
+  "homepage": "https://github.com/goDlin86/react-simple-graphic#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.48",
+    "react": "^18.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}

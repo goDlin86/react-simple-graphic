@@ -1,12 +1,10 @@
 import React from 'react'
 
 
-const SimpleGraphic = ({ options }) => {
+export const SimpleGraphic = ({ backgroundColor }) => {
 
 
     return (
-        <div>TEST</div>
+        <div style={backgroundColor && { backgroundColor }}>TEST</div>
     )
 }
-
-export default SimpleGraphic
